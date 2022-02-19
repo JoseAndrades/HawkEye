@@ -1,0 +1,169 @@
+/*FONTS*/
+
+h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-style: oblique;
+  color:#467faa;
+  text-align: center;
+}
+
+h6{
+  color: white;
+}
+
+.container-fluid{
+  padding-right: 0; 
+  padding-left: 0;
+}
+
+/*NAVBAR*/
+/* Navigation Bar */
+  .navbar{
+    padding-right: 0; 
+    padding-left: 0;
+    padding: 20px 10px 20px 0px;
+    transition: all ease 0.4s;
+  }
+  .navbar-brand{
+    font-size: 22px;
+    color: white !important;
+  }
+  .navbar .navbar-nav li a{
+    font-size: 16px;
+    color: white;
+  }
+
+  .navbar-collapse{
+    flex-grow: 0;
+  }
+ 
+  
+  /* Animation */
+  .animate{
+    padding: 0px 10px 0px 0px;
+    transition: all ease 0.4s;
+  }
+  
+  /* Jumbotron */
+  .jumbotron{
+    margin-top: 110px;
+  }
+
+
+
+/*HERO*/
+#hero{
+  text-align: center;
+
+}
+
+#hero p{
+  text-align:justify 
+}
+
+#hero .img-fluid{
+  width: 40%;
+}
+
+/*EVENTOS*/
+#eventos{
+  text-align: center;
+}
+
+
+/*SERVICIOS*/
+.accordion-button{
+  font-size:x-large;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.accordion-item{
+ border-color: white;
+}
+
+.accordion-button:not(.collapsed) a{
+  color: white;
+  background-color: #467faa;
+  box-shadow: inset 0 -1px 0 #6b6850;
+}
+
+.btn a{
+color: white;
+text-decoration: none;
+}
+
+.btn a:hover{
+  color: #9f9b75 ;
+}
+
+.accordion-button:hover{
+  color: #F8B73F;
+}
+
+.accordion-button::selection a{
+  box-shadow: white;
+}
+.accordion-body{
+  text-align: justify;
+}
+
+/*GALERIA*/
+.carousel-item{
+  object-position: center;
+  object-fit: contain;
+}
+#galder{
+  width: 40%;
+}
+
+@media (max-width: 800px) {
+  #galder{
+    visibility:hidden;
+    width:min-content;
+  }
+
+}
+
+/*MAPA*/
+
+
+/*FOOTER*/
+.footer li a,.footer li{
+  color: white;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer li:hover{
+  color: #9f9b75;
+  text-decoration: none;
+}
+
+.footer li a:hover{
+  color: #9f9b75;
+  cursor:pointer;
+}
+
+.footer a:visited{
+  color: white;
+}
+
+#iconoredes{
+  width: 30%;
+}
+#iconoredestwt{
+  width: 18%;
+}
+
+#iconoredes a:hover{
+  cursor: pointer;
+  border-color: 4px white;
+}
+
+
+
+

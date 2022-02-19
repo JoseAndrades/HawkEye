@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HawkEye</title>
+  <!--REF BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--ESTILOS-->
+  <link href="./styles/index.css" rel="stylesheet">
+  <link href="./styles/paletaColores.css" rel="stylesheet">
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="../HawkEye/img/logo.png" />
+
+</head>
+
+<body class="bg-tono8">
+  <!-- BARRA DE NAVEGACIÓN - COMPONENTE BOOTSTRAP 5-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-tono1">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand" href="#1">HawkEye</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#1">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#eventos">Últimos eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#3">Nuestros servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#4">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#5">Contacto</a>
+          </li>
+          <li class="nav-item" id="#6">
+            <a class="nav-link" href="./form.html">Iniciar sesion / Registrarse</a>
+          </li>
+      </div>
+  </nav>
+
+
+  <!--container que contendra la informacion-->
+  <!--HERO-->
+  <section>
+    <div class="container-fluid">
+      <!--video header-->
+      <div class="ratio ratio-16x9 mx-0 mt-0 px-0 py-0" id="1">
+        <iframe autoplay src="https://www.youtube-nocookie.com/embed/oetS-gGjaSM?controls=0"></iframe>
+      </div>
+    </div>
+
+
+    <div class="bg-tono2">
+      <div class="container-lg">
+        <!--contenido hero-->
+        <div class="row px-5 py-5" id="hero" style="align-items: center;">
+          <div class="col-xs-12 col-md-7 px-2">
+            <h2>¿Quienes somos?</h2>
+            <p>Somos una empresa dedicada enteramente al mundo de los drones, llevamos mas de 3 años en el
+              sector y
+              conocemos las tecnologias puntas de este mercado. Prestamos nuestros servicios tanto a particulares como
+              a empresas, realizamos cinematicas, filmamos eventos, organizamos torneos de vuelo en FPV con premios en
+              metalico,¿Quieres saber más? ¡Sigue bajando!
+            </p>
+          </div>
+          <div class="col-xs-12 col-md-5" id="logo">
+            <div class="text-center">
+              <img class="img-fluid" src="./img/logo.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--fin hero -->
+
+
+  <!--EVENTOS  COMPONENTE BOOTSTRAP 5-->
+
+  <section style="height: auto;" >
+    <div class="bg-tono8 py-3">
+      <div class="container-lg" >
+        <div class="row my-5 mx-0 px-5" id="eventos" >
+          <div class="row py-4"id="#2">
+            <h2 >Ultimos eventos</h2>
+            <h5>
+              <p>Por aquí os dejamos los ultimos eventos realizados por HawkEye</p>
+            </h5>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="card my-4">
+              <img src="./img/evento1.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Espectáculo nocturno</h5>
+                <p class="card-text" style="text-align: justify;">Espectaculo realizado el pasado sabado, en los cielos
+                  de
+                  Albacete. Un conjunto de
+                  200 drones se coordinan mediante nuestra app </p>
+                <a href="#4" class="btn btn-tono1">ver+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="card my-4">
+              <img src="./img/evento2.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">6ºCarrera de drones FPV</h5>
+                <p class="card-text" style="text-align: justify;">La 6º edición de la carrera de drones FPV Nacional se
+                  disputó el pasado 23 de enero
+                  en Vigo, Galicia. Compitieron personas de edades de entre 15 y 56 años</p>
+                <a href="#4" class="btn btn-tono1">ver+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="card my-4">
+              <img src="./img/evento3.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Filmación de boda</h5>
+                <p class="card-text" style="text-align: justify;">Ayer tuvimos la oportunidad de grabar una ceremonia
+                  tan
+                  especial como es una boda,
+                  la pareja queria tener un recuerdo del momento y no dudaron en elegirnos para ello</p>
+                <a href="#4" class="btn btn-tono1">ver+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--fin eventos -->
+
+
+  <!--Nuestros servicios  COMPONENTE BOOTSTRAP 5-->
+  <section id="3">
+    <div class="bg-tono2 py-5">
+      <div class="container-lg">
+        <h2>Nuestros servicios</h2>
+        <div class="row mx-0 px-5 py-3" style="height: auto; text-align: center;">
+          <div class="col-md-12 col-lg-6 px-5">
+            <div class=" py-2 my-3">
+              <div class="accordion my-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header m-0" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Filmación de eventos
+                    </button>
+                  </h3>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Puedes contratar nuestros servicios para grabar desde un evento deportivo o musical hasta una
+                      celebracion al aire libre como una boda o una fiesta
+                    </div>
+                    <div class="btn btn-tono1 my-3"><a href="./form.html">informarse</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-2 py-2 my-3">
+              <div class="accordion my-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header m-0" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Alquiler de drones goPro
+                    </button>
+                  </h3>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Puedes alquilar un dron que grabe actividades el aire libre como montar en moto, caballo o
+                      bicicleta...¡Cualquier cosa que quieras tener en un video!
+                    </div>
+                    <div class="btn btn-tono1 my-3"><a href="./form.html">informarse</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-2 py-2 my-3">
+              <div class="accordion my-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header m-0" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Drones para busqueda de mascotas
+                    </button>
+                  </h3>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Si has perdido tu mascota puedes pedirnos ayuda, gracias a la vista aerea sera mas facil
+                      localizarla
+                      y devolverla a casa
+                    </div>
+                    <div class="btn btn-tono1 my-3"><a href="./form.html">informarse</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6 px-5">
+            <div class="px-2 py-2 my-3">
+              <div class="accordion my-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header m-0" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Soluciones para empresas
+                    </button>
+                  </h3>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Si eres una empresa y buscas soluciones para el reparto a domicilio, el transporte de mercancia o
+                      el
+                      reabastecimiento. Tenemos planes de mensualidades que se adaptan a la necesidad de cada
+                      particular.
+                    </div>
+                    <div class="btn btn-tono1 my-3"><a href="./form.html">informarse</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-2 py-2 my-3">
+              <div class="accordion my-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header m-0" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      HawkPostMan
+                    </button>
+                  </h3>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      HawkPostMan es un servicio de envios a domicilios por subscripcion mensual , que permitira la
+                      entrega de comida rapida o paquetes, en menor tiempo y en la ventana de tu casa
+                    </div>
+                    <div class="btn btn-tono1 my-3"><a href="./form.html">informarse</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-2 py-2 my-3">
+              <div class="accordion my-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header m-0" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Carreras de drones FPV
+                    </button>
+                  </h3>
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>
+                        Somos los organizadores de un torneo, en formato de liga en la que los competidores haran
+                        carreras
+                        por jornadas en circuitos unicos para cada na de ellas.
+                      </p>
+                      <p>
+                        Ademas tenemos otras carreras en diferentes ciudades españolas abiertas a todo el publico y con
+                        premios en metalico
+                      </p>
+                    </div>
+                    <div class="btn btn-tono1 my-3"><a href="./form.html">informarse</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--Galeria-->
+  <section id="4" class="my-3">
+    <div class="container-lg px-5 py-5" style="height: 100vh; text-align: center;">
+      <h2>Galeria</h2>
+      <h5>
+        <p>Por aquí os dejamos las ultimas fotos realizadas por HawkEye</p>
+      </h5>
+      <div class="row mx-0 my-5 px-3 py-3 bg-tono9" style="height:auto; border:2px solid #F8B73F; border-radius: 4px; ">
+        <!--izq-->
+        <div class="row mx-0 col-xs-12 col-md-7 " id="galizq">
+          <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/gal11.JPG" class="img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/gal10.JPG" class="img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/gal9.JPG" class="img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/gal8.JPG" class="img-fluid" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--der-->
+        <div class="row mx-0 px-0  col-s-12 col-md-5" id="galder">
+          <div class="row-cols-1 row-lg-5 col-md-12 mx-0">
+            <div class="container ">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/gal1.JPG" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/gal2.JPG" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/gal3.JPG" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/gal4.JPG" class="img-fluid" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-cols-1 row-lg-5 col-md-12 my-1">
+            <div class="container">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/gal5.JPG" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/gal6.JPG" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/gal7.JPG" class="img-fluid" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--mapa-->
+  <section>
+    <div id="5" class="bg-tono2" style="text-align: center; align-items: center;">
+      <div class="container-lg py-5">
+        <h2>¿Donde nos encontramos?</h2>
+        <div class="row py-2 align-items-center">
+          <div class="col-lg-12">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d47915.83368287222!2d2.1242900243929075!3d41.35801326573609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdatisa%20barcelona!5e0!3m2!1ses!2ses!4v1645167296962!5m2!1ses!2ses"
+                  width="80%" height="550px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--FOOTER-->
+  <div class="container-fluid">
+    <footer class="footer p-4 bg-tono1">
+      <div class="row  px-3">
+        <div class="col-xs-12 col-md-7 ">
+          <h6>Contacto:</h6>
+          <ul>
+            <li>
+              <a
+                href="https://www.google.es/maps/dir//Datisa,+Av.+de+Josep+Tarradellas,+38,+PLANTA+3,+08029+Barcelona/@41.3794092,2.1493024,14z/data=!3m1!5s0x12a4986a2c9ea271:0xec7ff5671bea7d68!4m8!4m7!1m0!1m5!1m1!1s0x12a4987fb647b5d1:0x23ee3ce0996a5977!2m2!1d2.14279!2d41.3833779?hl=es">
+                Direccion: Datisa, Av. de Josep Tarradellas, 38, PLANTA 3, 08029 Barcelona
+              </a>
+            </li>
+            <li>
+              <a href="https://accounts.google.com/signin">
+                Correo electronico:hawkeyecontact@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="https://web.whatsapp.com/">
+                Teléfono: +34 956 48 75 96
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-5 ">
+          <h6>Nuestras redes sociales:</h6>
+          <div class="row" style="align-items: baseline; text-align: center;">
+            <div class="col">
+              <a href="https://www.instagram.com/bootstraptutorial/">
+                <img src="./img/ig.png" class="img-fluid" id="iconoredes">
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://twitter.com/BootstrapEcom">
+                <img src="./img/twt.png" class="img-fluid" id="iconoredestwt">
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://www.youtube.com/watch?v=1kNwZbRiVcQ&t=7s&ab_channel=Bluuweb">
+                <img src="./img/yt.png" class="img-fluid" id="iconoredes">
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

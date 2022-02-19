@@ -1,0 +1,31 @@
+/*paleta de colores principal*/
+.bg-tono1{background-color:#F8B73F}
+.bg-tono2{background-color:#cca95a}
+.bg-tono3{background-color:#9f9b75}
+.bg-tono4{background-color:#738d90}
+.bg-tono5{background-color:#467faa}
+.bg-tono6{background-color:#578bb2}
+.bg-tono7{background-color:#b0c6d6}
+.bg-tono8{background-color:#ffffff}
+.bg-tono9{background-color:#f8b73f1c;}
+
+
+.btn-tono1{
+    background-color:#467faa;
+    color: white;
+    align-self: center;
+}
+
+.btn-tono2{
+    background-color:#f8b73fd5;
+    color: white;
+    border-radius: 0%;
+}
+
+.btn-tono1:hover,.btn-tono2:hover{
+    color: #9f9b75;
+}
+
+
+.border-tono1{background-color:#9f9b75dc;}
+
